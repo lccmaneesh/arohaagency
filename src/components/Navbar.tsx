@@ -32,8 +32,8 @@ const Navbar = () => {
 
   return (
     <header 
-      className={`fixed w-full z-50 transition-all duration-300 ${
-        isScrolled ? 'bg-white shadow-md py-3' : 'bg-transparent py-5'
+      className={`fixed w-full z-50 transition-all duration-300 backdrop-blur-sm ${
+        isScrolled ? 'bg-white shadow-md py-3' : 'bg-white/5 py-5'
       }`}
     >
       <div className="container mx-auto px-4 md:px-6">
@@ -41,7 +41,6 @@ const Navbar = () => {
           <Link to="/" className="text-2xl font-bold text-sky-700">
             Aroha Creatives
           </Link>
-
           {/* Desktop Navigation */}
           <nav className="hidden md:block">
             <ul className="flex space-x-8">
@@ -49,7 +48,7 @@ const Navbar = () => {
                 <Link 
                   to="/" 
                   className={`text-sm font-medium transition-colors hover:text-sky-700 ${
-                    location.pathname === '/' ? 'text-sky-700' : 'text-gray-700'
+                    location.pathname === '/' ? 'text-sky-700' : isScrolled ? 'text-gray-700' : 'text-white'
                   }`}
                 >
                   Home
@@ -59,7 +58,7 @@ const Navbar = () => {
                 <Link 
                   to="/services" 
                   className={`text-sm font-medium transition-colors hover:text-sky-700 ${
-                    location.pathname.includes('/services') ? 'text-sky-700' : 'text-gray-700'
+                    location.pathname.includes('/services') ? 'text-sky-700' : isScrolled ? 'text-gray-700' : 'text-white'
                   }`}
                 >
                   Services
@@ -69,7 +68,7 @@ const Navbar = () => {
                 <Link 
                   to="/portfolio" 
                   className={`text-sm font-medium transition-colors hover:text-sky-700 ${
-                    location.pathname === '/portfolio' ? 'text-sky-700' : 'text-gray-700'
+                    location.pathname === '/portfolio' ? 'text-sky-700' : isScrolled ? 'text-gray-700' : 'text-white'
                   }`}
                 >
                   Portfolio
@@ -79,7 +78,7 @@ const Navbar = () => {
                 <Link 
                   to="/about" 
                   className={`text-sm font-medium transition-colors hover:text-sky-700 ${
-                    location.pathname === '/about' ? 'text-sky-700' : 'text-gray-700'
+                    location.pathname === '/about' ? 'text-sky-700' : isScrolled ? 'text-gray-700' : 'text-white'
                   }`}
                 >
                   About
