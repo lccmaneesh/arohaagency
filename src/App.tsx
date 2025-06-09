@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import Services from './pages/Services';
 import ServiceDetail from './pages/ServiceDetail';
 import Portfolio from './pages/Portfolio';
+import CaseStudyDetail from './pages/CaseStudyDetail';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import { servicesData } from './data/services';
@@ -25,6 +26,7 @@ function App() {
             />
           ))}
           <Route path="portfolio" element={<Portfolio />} />
+          <Route path="portfolio/:slug" element={<CaseStudyDetail />} />
           <Route path="about" element={<About />} />
           <Route path="contact" element={<Contact />} />
         </Route>

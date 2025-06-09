@@ -1,4 +1,5 @@
 import { ArrowUpRight } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import { CaseStudy } from '../types';
 
 interface CaseStudyCardProps {
@@ -7,7 +8,7 @@ interface CaseStudyCardProps {
 
 const CaseStudyCard = ({ caseStudy }: CaseStudyCardProps) => {
   return (
-    <div className="group relative overflow-hidden rounded-lg">
+    <Link to={`/portfolio/${caseStudy.slug}`} className="group relative overflow-hidden rounded-lg block">
       {/* Image */}
       <div className="aspect-video overflow-hidden rounded-lg">
         <img 
@@ -29,13 +30,13 @@ const CaseStudyCard = ({ caseStudy }: CaseStudyCardProps) => {
           <p className="text-sm text-gray-200 mb-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
             {caseStudy.description}
           </p>
-          <button className="inline-flex items-center text-sm font-medium text-white">
+          <span className="inline-flex items-center text-sm font-medium text-white">
             View Case Study
             <ArrowUpRight size={16} className="ml-1" />
-          </button>
+          </span>
         </div>
       </div>
-    </div>
+    </Link>
   );
 };
 
