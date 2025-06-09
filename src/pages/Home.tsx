@@ -38,7 +38,7 @@ const Home = () => {
                   <MapPin size={20} className="text-teal-700 mt-1 mr-3 flex-shrink-0" />
                   <div>
                     <h4 className="font-semibold text-gray-900">Locally Based</h4>
-                    <p className="text-gray-600">Te Atatu Peninsula, West Auckland</p>
+                    <p className="text-gray-600">West Auckland</p>
                   </div>
                 </div>
                 <div className="flex items-start">
