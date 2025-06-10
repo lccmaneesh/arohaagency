@@ -8,9 +8,9 @@ const Contact = () => {
       {/* Header */}
       <header className="bg-gradient-to-r from-purple-900 to-teal-800 text-white py-20">
         <div className="container mx-auto px-4 md:px-6 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">Contact Us</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">Contact Auckland's Leading Digital Marketing Agency</h1>
           <p className="text-xl text-gray-200 max-w-2xl mx-auto">
-            Get in touch with our team to discuss your project or ask any questions.
+            Get your free SEO audit and digital marketing consultation. Contact West Auckland's premier web design and digital marketing experts today.
           </p>
         </div>
       </header>
@@ -21,9 +21,9 @@ const Contact = () => {
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
             {/* Contact Information */}
             <div className="lg:col-span-1">
-              <h2 className="text-2xl font-bold mb-6 text-gray-900">Get In Touch</h2>
+              <h2 className="text-2xl font-bold mb-6 text-gray-900">Contact Our Auckland Digital Marketing Team</h2>
               <p className="text-gray-600 mb-8">
-                We'd love to hear from you. Reach out to discuss your project or ask any questions.
+                Ready to dominate Auckland's digital market? Contact our certified SEO and digital marketing specialists for a free consultation and custom strategy proposal.
               </p>
               
               <div className="space-y-6">

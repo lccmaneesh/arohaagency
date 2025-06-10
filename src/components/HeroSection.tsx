@@ -18,26 +18,28 @@ const HeroSection = () => {
       {/* Hero content */}
       <div className="container mx-auto px-4 md:px-6 z-10">
         <div className="max-w-3xl">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6 animate-fade-in">
-            Digital Solutions with a <span className="text-sky-300">West Auckland</span> Heart
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6 animate-fade-in" itemProp="headline">
+            West Auckland Digital Marketing & Web Design Agency in <span className="text-sky-300">Te Atatu Peninsula</span>
           </h1>
-          <p className="text-lg md:text-xl text-gray-200 mb-8 max-w-2xl animate-fade-in-delay">
-            Aroha Creatives delivers exceptional digital experiences from our home in Te Atatu Peninsula. 
-            Web design, development, and digital marketing with authentic local connections.
+          <p className="text-lg md:text-xl text-gray-200 mb-8 max-w-2xl animate-fade-in-delay" itemProp="description">
+            Leading West Auckland digital agency specializing in professional web design, development, SEO, and digital marketing services. 
+            Serving Te Atatu Peninsula, Henderson, Waitakere, and greater Auckland with authentic local expertise since 2018.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 animate-fade-in-delay-2">
             <Link 
               to="/services" 
               className="px-6 py-3 rounded-md bg-sky-600 text-white font-medium transition-all hover:bg-sky-700 transform hover:translate-y-[-2px] inline-flex items-center group"
+              aria-label="Explore our digital marketing and web design services"
             >
-              Explore Services
+              View Our Digital Services
               <ArrowRight size={18} className="ml-2 transform transition-transform duration-300 group-hover:translate-x-1" />
             </Link>
             <Link 
               to="/contact" 
               className="px-6 py-3 rounded-md bg-transparent border-2 border-white text-white font-medium transition-all hover:bg-white/10"
+              aria-label="Contact Aroha Creatives for a free consultation"
             >
-              Get in Touch
+              Free Consultation
             </Link>
           </div>
         </div>

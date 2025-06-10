@@ -19,9 +19,9 @@ const Portfolio = () => {
       {/* Header */}
       <header className="bg-gradient-to-r from-purple-900 to-teal-800 text-white py-20">
         <div className="container mx-auto px-4 md:px-6 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">Our Portfolio</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">Auckland Digital Marketing Portfolio & Case Studies</h1>
           <p className="text-xl text-gray-200 max-w-2xl mx-auto">
-            Showcasing our successful projects for businesses in West Auckland and beyond.
+            Proven results from our SEO, web design, and digital marketing campaigns for Auckland businesses. Real case studies showing increased traffic, leads, and revenue.
           </p>
         </div>
       </header>
@@ -30,8 +30,8 @@ const Portfolio = () => {
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4 md:px-6">
           <SectionHeading 
-            title="Featured Projects"
-            subtitle="Browse our case studies to see how we've helped local businesses succeed"
+            title="Featured Digital Marketing Success Stories"
+            subtitle="Browse our Auckland SEO and digital marketing case studies showing real ROI and business growth"
             accentColor="orange"
           />
           

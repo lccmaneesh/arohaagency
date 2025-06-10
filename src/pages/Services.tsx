@@ -31,9 +31,9 @@ const Services = () => {
       {/* Header */}
       <header className="bg-gradient-to-r from-purple-900 to-teal-800 text-white py-20">
         <div className="container mx-auto px-4 md:px-6 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">Our Services</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">Digital Marketing & Web Design Services Auckland</h1>
           <p className="text-xl text-gray-200 max-w-2xl mx-auto">
-            Comprehensive digital solutions tailored for West Auckland businesses and beyond.
+            Professional SEO, web development, digital marketing, and social media management services for Auckland businesses. Expert solutions that drive traffic, leads, and sales.
           </p>
         </div>
       </header>
@@ -41,9 +41,9 @@ const Services = () => {
       {/* Intro */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4 md:px-6 max-w-4xl text-center">
-          <h2 className="text-3xl font-bold mb-6 text-gray-900">How We Help Your Business Succeed</h2>
+          <h2 className="text-3xl font-bold mb-6 text-gray-900">How Our Auckland Digital Marketing Agency Drives Business Growth</h2>
           <p className="text-lg text-gray-600 mb-8">
-            At Aroha Creatives, we deliver digital solutions that drive real results for your business. From stunning websites to comprehensive marketing strategies, we combine technical expertise with local understanding to create solutions that connect with your audience.
+            At Aroha Creatives, West Auckland's premier digital marketing agency, we deliver SEO-optimized websites, targeted digital marketing campaigns, and comprehensive online strategies that generate leads, increase sales, and build brand authority for Auckland businesses.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             {categories.map((category, index) => (

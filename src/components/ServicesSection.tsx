@@ -8,10 +8,10 @@ const ServicesSection = () => {
     <section className="py-20 bg-gray-50" id="services">
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-900">Our Digital Services</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-900">Professional Digital Marketing & Web Design Services</h2>
           <div className="w-20 h-1 bg-teal-600 mx-auto mb-6"></div>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Comprehensive digital solutions tailored for West Auckland businesses and beyond.
+            Expert SEO, web development, digital marketing, and social media management services for Auckland businesses. Proven strategies that deliver measurable results and increased online visibility.
           </p>
         </div>
 

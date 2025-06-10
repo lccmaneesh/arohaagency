@@ -8,10 +8,10 @@ const PortfolioSection = () => {
     <section className="py-20 bg-white">
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-900">Our Recent Work</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-900">Successful Auckland Digital Marketing Case Studies</h2>
           <div className="w-20 h-1 bg-orange-500 mx-auto mb-6"></div>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Showcasing our successful projects for businesses in West Auckland and beyond.
+            Real results from our web design, SEO, and digital marketing campaigns for West Auckland and greater Auckland businesses. See how we've helped local companies achieve online success.
           </p>
         </div>
 

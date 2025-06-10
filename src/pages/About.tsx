@@ -10,9 +10,9 @@ const About = () => {
       {/* Header */}
       <header className="bg-gradient-to-r from-purple-900 to-teal-800 text-white py-20">
         <div className="container mx-auto px-4 md:px-6 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">About Us</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">About Aroha Creatives - West Auckland Digital Marketing Experts</h1>
           <p className="text-xl text-gray-200 max-w-2xl mx-auto">
-            A West Auckland digital agency with a focus on authentic connections and exceptional results.
+            Leading Te Atatu Peninsula digital marketing agency serving Auckland businesses since 2018. Expert web design, SEO, and digital marketing services with proven local expertise.
           </p>
         </div>
       </header>
@@ -22,16 +22,16 @@ const About = () => {
         <div className="container mx-auto px-4 md:px-6">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl font-bold mb-4 text-gray-900">Our Story</h2>
+              <h2 className="text-3xl font-bold mb-4 text-gray-900">West Auckland's Digital Marketing Success Story</h2>
               <div className="w-20 h-1 bg-teal-600 mb-6"></div>
               <p className="text-gray-600 mb-6">
-                Founded in 2018 in Te Atatu Peninsula, Aroha Creatives began with a simple mission: to provide local West Auckland businesses with high-quality digital services that combine technical expertise with authentic local connections.
+                Founded in 2018 in Te Atatu Peninsula, Aroha Creatives began as West Auckland's first specialized digital marketing agency focused on helping local businesses dominate online. We combine advanced SEO techniques, professional web design, and proven digital marketing strategies with deep local market knowledge.
               </p>
               <p className="text-gray-600 mb-6">
-                Our founder, Mārama Wilson, saw that many local businesses were being underserved by large agencies that didn't understand the unique West Auckland community and culture. She assembled a team of talented professionals who shared her vision for community-focused digital solutions.
+                Our founder, Mārama Wilson, recognized that Auckland businesses needed a digital marketing partner who understood local search behavior, community connections, and the unique challenges of competing in New Zealand's digital marketplace. She assembled a team of certified SEO specialists, web developers, and digital marketing experts.
               </p>
               <p className="text-gray-600">
-                Today, we've grown to serve clients throughout Auckland and beyond, but we remain deeply rooted in our West Auckland home. Our name "Aroha" (the Māori word for love and compassion) reflects our approach to business – creating digital solutions with care, understanding, and genuine connection.
+                Today, we're recognized as Auckland's leading boutique digital marketing agency, serving clients throughout New Zealand while maintaining our West Auckland roots. Our proven track record includes over 200 successful SEO campaigns, 150+ custom websites, and millions in generated revenue for our clients.
               </p>
             </div>
             <div className="rounded-lg overflow-hidden shadow-lg">
